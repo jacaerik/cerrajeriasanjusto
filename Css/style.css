@@ -412,6 +412,58 @@ img {
 .pie-pagina .grupo-2 small{
     font-size: 15px;
 }
+
+.boton{
+    width: 80px;
+    height: 30px;
+    font-weight: normal;
+    transition: all 1s;
+}
+.boton:hover{
+    width: 90px;
+    border-radius: 12px;
+    font-weight: bold;
+    background-color: bisque;
+}
+
+@keyframes logo_animado{
+    0%{}
+    25%{
+        transform: scale(1.1, 1.1);
+    }
+    50%{
+        transform: scale(1.2, 1.2);
+    }
+    75%{
+        transform: scale(1.1, 1.1);
+    }
+    100%{
+        transform: scale(1, 1);
+    }
+}
+
+.logoo{
+    animation-name: logo_animado;
+    animation-duration: 1s ;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+.title{
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: initial;
+}
+@keyframes aparecer{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
 @media screen and (max-width:350px){
     .pie-pagina .grupo-1{
         width: 90%;
