@@ -426,7 +426,7 @@ img {
     background-color: bisque;
 }
 
-@keyframes logo_animado{
+/* @keyframes logo_animado{
     0%{}
     25%{
         transform: scale(1.1, 1.1);
@@ -447,7 +447,7 @@ img {
     animation-duration: 1s ;
     animation-delay: 2s;
     animation-iteration-count: infinite;
-}
+} */
 
 .title{
     animation-duration: 2s;
