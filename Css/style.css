@@ -193,17 +193,19 @@ header {
   font-style: italic;
 }
 
-.table__link {
-  display: flex;
-  padding: 16px 16px 16px 16px;
-  /*     margin-top: 5%;
-      margin-left: 20%;
-      margin-right: 20%;
-      margin-bottom: 5%; */
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  flex-wrap: wrap;
+.table__link{
+    display: flex;
+    padding: 16px 16px 16px 16px;
+/*     margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+   
+
 }
 
 .td__maps {
@@ -282,23 +284,44 @@ header {
   align-content: center;
   margin: 0 auto;
 }
-.seccion.proyecto .modulo.paso ul p {
-  font-family: "lato";
-  font-style: italic;
-  line-height: 15px;
-  padding-left: 0px;
-  margin-left: 25px;
-  margin-right: 2px;
-  margin-bottom: 25px;
+
+img {
+    display: flex;
 }
-.seccion.proyecto .modulo.paso ul li {
-  font-family: "lato";
-  font-style: italic;
-  line-height: 15px;
-  padding-left: 0px;
-  margin-left: 25px;
-  margin-right: 2px;
-  margin-bottom: 25px;
+
+.seccion.proyecto .modulo.paso ul li, .seccion.proyecto .modulo.paso ul p {
+    font-family: 'lato';
+    font-style: italic;
+    line-height: 17px;
+    padding-left: 20px;
+    margin: 1rem;
+}
+.seccion.proyecto p:nth-of-type(10) {
+    font-family: 'lato';
+    font-size: 20px;
+    line-height: 29px;
+    font-style: italic;
+    margin: 15px;
+    padding: 0px 300px;
+    /* padding: 0px 300px; */
+}
+
+.seccion.proyecto p {
+    font-size: 15px;
+    line-height: 25px;
+    color: #455559;
+    font-weight: 100;
+    padding: 0px 215px;
+}
+
+.seccion.proyecto .modulo.paso ul li, .seccion.proyecto .modulo.paso ul p {
+    font-family: 'lato';
+    font-style: italic;
+    line-height: 15px;
+    padding-left: 0px;
+    margin-left: 25px;
+    margin-right: 2px;
+    margin-bottom: 25px;
 }
 .seccion.proyecto .modulo.paso ul li::before {
   display: inline-block;
@@ -319,13 +342,6 @@ img {
   display: flex;
 }
 
-/* .seccion.proyecto .modulo.paso ul li, .seccion.proyecto .modulo.paso ul p {
-    font-family: 'lato';
-    font-style: italic;
-    line-height: 17px;
-    padding-left: 20px;
-    margin: 1rem;
-} */
 /*:::::Pie de Pagina*/
 .pie-pagina {
   width: 100%;
@@ -399,7 +415,7 @@ img {
   background-color: bisque;
 }
 
-/* @keyframes logo_animado{
+@keyframes logo_animado{
     0%{}
     25%{
         transform: scale(1.1, 1.1);
@@ -414,16 +430,18 @@ img {
         transform: scale(1, 1);
     }
 }
+
 .logoo{
     animation-name: logo_animado;
     animation-duration: 1s ;
     animation-delay: 2s;
     animation-iteration-count: infinite;
-} */
-.title {
-  animation-duration: 2s;
-  animation-name: aparecer;
-  animation-iteration-count: initial;
+}
+
+.title{
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: initial;
 }
 
 @keyframes aparecer {
