@@ -206,10 +206,6 @@ header {
 .table__link{
     display: flex;
     padding: 16px 16px 16px 16px;
-/*     margin-top: 5%;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-bottom: 5%; */
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -343,14 +339,6 @@ img {
     display: flex;
 }
 
-/* .seccion.proyecto .modulo.paso ul li, .seccion.proyecto .modulo.paso ul p {
-    font-family: 'lato';
-    font-style: italic;
-    line-height: 17px;
-    padding-left: 20px;
-    margin: 1rem;
-} */
-
 /*:::::Pie de Pagina*/
 .pie-pagina{
     width: 100%;
@@ -429,28 +417,6 @@ img {
     background-color: $serv-title;
 }
 }
-
-/* @keyframes logo_animado{
-    0%{}
-    25%{
-        transform: scale(1.1, 1.1);
-    }
-    50%{
-        transform: scale(1.2, 1.2);
-    }
-    75%{
-        transform: scale(1.1, 1.1);
-    }
-    100%{
-        transform: scale(1, 1);
-    }
-}
-.logoo{
-    animation-name: logo_animado;
-    animation-duration: 1s ;
-    animation-delay: 2s;
-    animation-iteration-count: infinite;
-} */
 
 .title{
     animation-duration: 2s;
