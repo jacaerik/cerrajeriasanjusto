@@ -137,7 +137,7 @@ header {
   font-family: "lato";
 }
 
-#csj {
+#csj, .section__contact {
   align-items: center;
   text-align: center;
   justify-content: space-evenly;
@@ -151,9 +151,6 @@ header {
   margin-top: 0%;
   margin-left: 15%;
   margin-right: 15%;
-  background-color: #455559;
-  align-items: center;
-  text-align: center;
 }
 
 .table__contact {
@@ -176,28 +173,22 @@ header {
 }
 
 .ubic__link {
-  display: flex;
   border: solid;
-  padding: 16px 16px 16px 16px;
   margin-top: 5%;
   margin-left: 30%;
   margin-right: 30%;
   margin-bottom: 5%;
-  align-items: center;
-  text-align: center;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
   min-width: 250px;
   font-family: "lato";
   font-size: x-large;
   font-style: italic;
 }
 
-.table__link {
+.table__link, .ubic__link {
   display: flex;
-  padding: 16px 16px 16px 16px;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  padding: 16px 16px 16px 16px;
   text-align: center;
   flex-wrap: wrap;
 }
@@ -224,10 +215,10 @@ header {
 }
 
 .div__tit {
-  text-align: center;
-  align-items: center;
   display: flex;
   justify-content: center;
+  align-items: center;
+  text-align: center;
   color: #455559;
   background-color: bisque;
   height: 40px;
@@ -377,13 +368,13 @@ img {
 .boton {
   width: 80px;
   height: 30px;
-  font-weight: normal;
+  font-weight: 500;
   transition: all 1s;
 }
 .boton:hover {
   width: 90px;
   border-radius: 12px;
-  font-weight: bold;
+  font-weight: 700;
   background-color: bisque;
 }
 

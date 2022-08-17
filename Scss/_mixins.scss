@@ -1,0 +1,18 @@
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin theme ($light-theme: true) {
+    @if $light-theme {
+        background-color: $modbox-color ;
+        color: $title-color;
+    }
+}
+
+@mixin  mobile {
+    @media (min-width: $mobile) {
+        @content; 
+    }
+}
