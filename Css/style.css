@@ -123,7 +123,7 @@ header {
 
 .Portada-pag {
   margin: 2rem;
-  width: 350px;
+  width: 400px;
   padding: 2rem;
   box-shadow: 0 10px 30px -10px;
   background-color: #455559;
@@ -205,13 +205,7 @@ header {
 }
 
 .modbox {
-  display: inline-block;
-  vertical-align: middle;
-  align-items: center;
-  justify-content: space-evenly;
-  height: 100%;
-  width: 25%;
-  margin: 2rem;
+  margin-bottom: 10px;
 }
 
 .div__tit {
@@ -222,6 +216,7 @@ header {
   color: #455559;
   background-color: bisque;
   height: 40px;
+  margin-bottom: 15px;
 }
 
 .center-wrap {
