@@ -14,7 +14,7 @@
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
-<body>
+<body class="contact">
 	<!-- Logo y Nav --> 
 	<div class="all__contenedor">
 	<header>
@@ -38,31 +38,57 @@
 	</header>
 	<!-- Cierre Logo y Nav -->
 	<!-- Info de mi Sitio -->
-	<main>
+	<main class="main__contact">
 	<section>
-		<h1>CONTACTO</h1>
-	</section>
-	<!-- Form de Contacto -->
-	<section class="section__contact">
-		<table class="table__contact">
-			<form action="https://formspree.io/f/mbjblked" method="POST">
-				<fieldset>
-				<label for="nombre">Nombre</label>
-				 <input type="text" placeholder="Ingrese su nombre" name="nombre">
-				 <br>
-				 <br>
-				<label for="email">Ingrese su email:
-					<input type="email" placeholder="...@gmail.com" name="email"><br> <br>
-				</label>
-				<div>Tiene alguna consulta?</div> <br>
-					<textarea placeholder="Detalle aquí" name="message"></textarea>
-				</label> <br>
-				<input type="submit" value="Enviar" class="boton">
-				<input type="reset" value="Resetear" class="boton">
-				</fieldset>
-			</form>
-		</table>
-	</section>
+
+	 <div class="content">
+
+        <h1 class="logo">Contacta <span>Nos</span></h1>
+
+        <div class="contact-wrapper animated bounceInUp">
+            <div class="contact-form">
+                <h3>Contactanos</h3>
+                <form action="">
+                    <p>
+                        <label>Nombre Completo</label>
+                        <input type="text" name="fullname">
+                    </p>
+                    <p>
+                        <label>Email</label>
+                        <input type="email" name="email">
+                    </p>
+                    <p>
+                        <label>Telefono/Celular</label>
+                        <input type="tel" name="phone">
+                    </p>
+                    <p>
+                        <label>Asunto</label>
+                        <input type="text" name="affair">
+                    </p>
+                    <p class="block">
+                       <label>Mensaje</label> 
+                        <textarea name="message" rows="3"></textarea>
+                    </p>
+                    <p class="block">
+                        <button>
+                            Enviar
+                        </button>
+                    </p>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h4>Más Info</h4>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> Arturo illia 3530 (San Justo)</li>
+                    <li><i class="fas fa-phone"></i> (011) 15-2295-4014</li>
+                    <li><i class="fas fa-envelope-open-text"></i> cerrajeria_sanjusto@hotmail.com</li>
+                </ul>
+                <p>Si necesitas información sobre nuestros servicios y/o productos completá nuestro formulario y nos pondremos en contacto contigo lo antes posible</p>
+                <p>Muchas gracias</p>
+            </div>
+        </div>
+
+    </div>
 	</main>
 	<!-- Cierre de Form de Contacto -->
 	<!-- Footer --> 
